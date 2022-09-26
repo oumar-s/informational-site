@@ -6,3 +6,6 @@
 
 ### Description and images of Landforms were taken from this website.
 [outforia]("https://outforia.com/types-of-landforms/")
+
+### Description of cloud types were taken from this website
+[PrepScholar]("https://blog.prepscholar.com/what-are-the-different-types-of-clouds")
