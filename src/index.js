@@ -1,7 +1,6 @@
 "use strict";
 
 function changeTheme() {
-    console.log("works")
     let color = document.body.style.color;
 
 
