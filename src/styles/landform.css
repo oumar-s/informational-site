@@ -22,9 +22,24 @@ nav{
 }
 main{
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 90%;
     margin: auto;
     margin-top: 20px;
+}
+.div{
+    border: rgb(180, 176, 176) solid 2px;
+    margin: 0 5px;
+    width: 500px;
+}
+
+h2{
+    padding: 10px 10px;
+}
+p{
+    padding: 10px 10px;
 }
 a {
     color: white;
@@ -40,4 +55,9 @@ a:visited {
 li{
     display: inline;
     padding: 0 10px;
+}
+img{
+    width: 100%;
+    height: auto;
+
 }
