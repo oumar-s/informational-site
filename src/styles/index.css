@@ -41,26 +41,10 @@ button{
     padding: 10px 20px;
 }
 
-.waterContainer{
+.div{
     width: 33%;
     border: rgb(180, 176, 176) solid 2px;
     margin: 0 5px;
-}
-
-.landformContainer{
-    width: 33%;
-    border: rgb(180, 176, 176) solid 2px;
-    margin: 0 5px;
-
-
-}
-
-.cloudContainer{
-    width: 33%;
-    border: rgb(180, 176, 176) solid 2px;
-    margin: 0 5px;
-
-
 }
 
 

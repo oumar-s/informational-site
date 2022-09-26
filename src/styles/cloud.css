@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #d2d9e0;
+    text-align: center;
+    padding: 10px 5px ;
+}
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+main{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+  }
+  
+  ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding: 0 10px;
+}
