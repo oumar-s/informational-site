@@ -4,31 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Know It All</title>
-    <link rel="stylesheet" href="/index.css">
+    <title>InfoGen</title>
+    <link rel="stylesheet" href="/src/styles/index.css">
 </head>
 <body>
-    <!-- 
-    Links to all other pages
-    Two images  
-    -->
     <nav>
         <ul>
             <li><a href="/index.html"> Home</a></li>
             <li><a href="/src/water.html"> Waterbodies</a></li>
             <li><a href="/src/landform.html"> Landforms</a></li>
             <li><a href="/src/cloud.html"> Clouds</a></li>
+            <li><button onclick="changeTheme()">Change Text Color</button></li>
         </ul>
     </nav>
     
     <header>
         <h1>InfoGen</h1>
         <h3>Welcome to InfoGen: A place to learn about different topics and increase your general knowledge </h3>
-        <p>Click on one of the topics to get started</p>
     </header>
+    <p style="text-align: center; padding-top: 10px;">Click on one of the topics to get started</p>
     <main>
-        <div>
-            <img src="https://outforia.com/wp-content/uploads/2021/04/Types-of-water-of-bodies-Ocean-0421-768x389.webp" alt="">
+        <div class="div">
+            <img src="/img/index.webp" alt="">
             <h4>Waterbodies</h4>
             <p>
                 This article will teach you about different types of water bodies. There is a picture and description for each type of water bodies. 
@@ -36,8 +33,8 @@
             <a href="/src/water.html"> <button>Read</button></a>
         </div>
 
-        <div>
-            <img src="https://outforia.com/wp-content/uploads/2021/05/Types-of-landforms-what-is-0521-768x511.webp" alt="">
+        <div class="div">
+            <img src="/img/Types-of-landforms-what-is-0521-768x511.webp" alt="">
             <h4>Landforms</h4>
             <p>
                 This article will teach you about different types of landforms. There is a picture and description for each type of landform. 
@@ -45,8 +42,8 @@
             <a href="/src/landform.html"><button>Read</button></a>
         </div>
 
-        <div>
-            <img src="https://www.wkbn.com/wp-content/uploads/sites/48/2022/07/clouds-cloudy-sky-spring-summer-fall-winter-weather-generic-8.jpg?w=1280" alt="">
+        <div class="div">
+            <img src="/img/clouds-cloudy-sky-spring-summer-fall-winter-weather-generic-8.jpg.webp" alt="">
             <h4>Clouds</h4>
             <p>
                 This article will teach you about different types of clouds. There is a picture and description for each type of clouds. 
@@ -56,9 +53,6 @@
 
        
     </main>
-
-
-    
-    <script src="/index.js"></script>
+    <script src="/src/index.js"></script>
 </body>
 </html>
